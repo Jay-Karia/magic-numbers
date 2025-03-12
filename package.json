@@ -1,0 +1,18 @@
+{
+  "name": "magic-numbers",
+  "version": "1.0.0",
+  "description": "Finds 3 magical numbers",
+  "main": "dist/index.js",
+  "author": "jay-karia",
+  "license": "ISC",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc -w",
+    "start": "node dist/index.js",
+    "dev": "nodemon dist/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9",
+    "typescript": "^5.8.2"
+  }
+}
